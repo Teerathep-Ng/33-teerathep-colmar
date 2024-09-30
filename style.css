@@ -2,6 +2,7 @@
     border: 1px solid red;
     margin: 0;
     font-family: Arial, sans-serif;
+    color: #4A4A4A;
 }
 
 header {
@@ -30,8 +31,30 @@ header {
 
 .box-one {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D8D8D8;
+}
+
+.image1 {
+    width: 60%;
+    padding: 32px 24px;
 }
 
 img[src*="banner"] {
-    width: 60%;
+    width: 100%;
+    object-fit: cover;
 }
+
+.lorem {
+    text-align: left;
+    width: 40%;
+}
+
+button {
+    width: 100%;
+    height: auto;
+    background-color: #4A4A4A;
+    color: white;
+}
+
